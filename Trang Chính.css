@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.backgroundtren {
+    width: 100%;
+    height: 60px;
+    background-color: red;
+}
+
+.thanhtimkiem {
+    width: 80%;
+    height: 2.5em;
+    background-color: white;
+    border: none;
+    border-radius: 1em;
+    padding-left: 3em;
+    margin: 1em auto;
+    display: block;
+    font-size: 1em;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.kinhlup {
+    background-repeat: no-repeat;
+    background-image: url('IMG/magnifying-glass-1083373_1280.webp');
+    background-size: 1.5em 1.5em;
+    background-position: 0.8em center;
+}
+
+.nutbam {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nutbam button {
+    border: none;
+    border-radius: 1em;
+    padding: 0.6em 1.5em;
+    font-size: 1em;
+    font-weight: bold;
+    color: rgb(255, 44, 44);
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+    background: white;
+    cursor: pointer;
+}
+
+.nutbam button:hover {
+    background: rgb(255, 155, 155);
+    transition: background 0.3s ease;
+}
+
+.ulk {
+    list-style-type: none;
+    margin: 1em auto;
+    padding: 0;
+    border: 1px solid red;
+    width: 80%;
+    max-width: 250px;
+    border-radius: 0.8em;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.ulk li {
+    padding: 1em;
+    font-size: 1em;
+    font-weight: 600;
+    color: red;
+    text-align: center;
+}
+
+.ulk li:hover {
+    background: rgb(255, 155, 155);
+    transition: background 0.3s ease;
+}
+
+.ulk a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 1px solid red;
+}
+
+.ulk a:last-child {
+    border-bottom: none;
+}
+
+.photo {
+    display: flex;
+    gap: 0.5em;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -40vh;
+}
+
+.HOTphone {
+    border: 1px solid red;
+    margin: 2em auto;
+    padding: 1em;
+    width: fit-content;
+    max-width: 90%;
+    font-size: 1.2em;
+    font-weight: 600;
+    border-radius: 0.8em;
+    text-align: center;
+    background-color: red;
+    color: white;
+}
+
+.nendienthoai {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    background-color: #dddddd;
+    border-radius: 1em;
+    padding: 0.5em;
+    box-sizing: border-box;
+}
+
+.nendienthoai img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.8em;
+}
+
+.chinhhang {
+    width: 100%;
+    max-width: 100px;
+    padding: 0.4em;
+    background-color: yellow;
+    font-size: 0.75em;
+    font-weight: bold;
+    text-align: center;
+    color: red;
+    border-radius: 1em;
+    margin: 0.5em auto;
+}
+
+.GIADIENTHOAI {
+    font-weight: 700;
+    font-size: 0.9em;
+    text-align: left;
+    margin-left: 0.5em;
+}
+
+.nendienthoai span {
+    position: absolute;
+}
+
+.xepngangdienthoai {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+    width: 100%;
+    background-color: red;
+    border-radius: 1em;
+    padding: 2em 1em;
+    box-sizing: border-box;
+}
+
+.hieuung:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05) translateY(-5px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
